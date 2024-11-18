@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+.container {
+    height: 100vh;
+}
+
+
+.boxContainer { 
+    width: 100%; /* Largura do box interno */
+    height: 100%; /* Altura do box interno */
+    border: 2px solid #ff0000; /* Bordas do box */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.medidores{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-evenly;
+   
+}
+.medidores input{
+    display: flex;
+    width: 130px;
+    padding: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.medidores button{
+    display: flex;
+    width: max-content;
+    padding: 0 2px;
+    margin-top: 2px;
+}
+.triagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verificacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listaMedidores{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+    margin: 10px; 
+}
+.listaMedidores #listaTria, #listaVeri{
+    display: flex;
+    width: 120px;
+    flex-direction: column;
+
+}
+li{
+    border: 1px solid #000;
+    width: max-content;
+    padding: 2px 5px;
+}

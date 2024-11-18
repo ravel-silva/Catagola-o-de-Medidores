@@ -1,0 +1,53 @@
+# Ignore o arquivo .env com variáveis sensíveis
+.env
+credentials.json
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependências do Node.js
+node_modules/
+
+# Build da aplicação
+dist/
+build/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambiente virtual do Python
+venv/
+env/
+
+# Arquivos do Git
+*.lock
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Outros arquivos e pastas específicas
+coverage/
+.cache/
+*.pid
+
+# Arquivos do editor
+*.sublime-workspace
+*.sublime-project
+*.code-workspace

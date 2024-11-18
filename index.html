@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="boxContainer">
+            <header>
+                <h2>Medidores Retirados</h2>
+            </header>
+            <div class="medidores">
+                <div class="triagem">
+                    <h3>Triagem</h3>
+                    <Label>Nº de Serie</Label>
+                    <input type="text" name="Tserie" id="medidorTria">
+                    <button onclick="addTria()">Adicionar</button>
+                </div>
+                <div class="verificacao">
+                    <h3>Verificação</h3>
+                    <Label>Nº de Serie</Label>
+                    <input type="text" name="" id="medidorVeri">
+                    <button onclick="addVeri()">Adicionar</button>
+                </div>
+            </div>
+            <div class="listaMedidores">
+                <ul id="listaTria"></ul>
+                <ul id="listaVeri"></ul>
+            </div>
+                <button onclick="enviarDados()">ee</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
